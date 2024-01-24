@@ -29,7 +29,7 @@ public class PigLatin {
     }
     public int findFirstVowel(String sWord) {
  for(int i = 0; i < sWord.length(); i++){
-       if(word.charAt(i) == 'a' || word.charAt(i) == 'e' || word.charAt(i) == 'i' || word.charAt(i) == 'o' || word.charAt(i) == 'u'){  
+       if(sWord.charAt(i) == 'a' || sWord.charAt(i) == 'e' || sWord.charAt(i) == 'i' || sWord.charAt(i) == 'o' || sWord.charAt(i) == 'u'){  
       return i;
     }
   }
